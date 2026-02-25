@@ -7,10 +7,11 @@
     <style>
         body {
             font-family: 'Dancing Script', cursive;
-            background-image: url('https://media.discordapp.net/attachments/1441938965346255001/1476243639717073131/F6594F9D-6C8B-42F0-947F-592C94A72AFD.gif?ex=69a06a86&is=699f1906&hm=f6a9acaf187c429b243dbbfaf44945bff601af53d32ed65cbcfd08cd752e8ab8&=&width=486&height=274');
-            background-size: contain;
+            background-image: url('https://i.pinimg.com/originals/a3/91/3b/a3913bda2628e864b0b0bf18c9122409.gif');
+            background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            background-attachment: fixed;
             color: #FFFFFF;
             margin: 0;
             padding: 20px;
@@ -25,7 +26,7 @@
 
         h1 {
             font-size: 2.5em;
-            text-shadow: 0 0 15px #5D9CEC, 3px 3px 6px #000;
+            text-shadow: 0 0 20px #87CEEB, 0 0 40px #87CEEB, 3px 3px 6px #000;
             margin-bottom: 20px;
         }
 
@@ -36,8 +37,8 @@
             padding: 10px;
             background-color: rgba(255, 255, 255, 0.1);
             border-radius: 10px;
-            text-shadow: 0 0 15px #5D9CEC, 3px 3px 6px #000;
-            box-shadow: 0 0 20px rgba(93, 156, 236, 0.5);
+            text-shadow: 0 0 20px #87CEEB, 0 0 40px #87CEEB, 3px 3px 6px #000;
+            box-shadow: 0 0 20px rgba(135, 206, 235, 0.5), inset 0 0 20px rgba(135, 206, 235, 0.1);
         }
 
         .buttons {
@@ -56,17 +57,18 @@
             padding: 15px 30px;
             border: none;
             border-radius: 10px;
-            background-color: #A8D8EA;
+            background-color: #87CEEB;
             color: #FFFFFF;
             cursor: pointer;
             transition: all 0.3s;
-            text-shadow: 0 0 15px #5D9CEC, 3px 3px 6px #000;
-            box-shadow: 0 0 10px rgba(93, 156, 236, 0.7);
+            text-shadow: 0 0 20px #000, 3px 3px 6px #000;
+            box-shadow: 0 0 20px rgba(135, 206, 235, 0.8), 0 0 40px rgba(135, 206, 235, 0.4);
         }
 
         button:hover {
-            background-color: #5D9CEC;
-            box-shadow: 0 0 15px rgba(93, 156, 236, 0.9);
+            background-color: #B0E0E6;
+            box-shadow: 0 0 30px rgba(135, 206, 235, 1), 0 0 60px rgba(135, 206, 235, 0.6);
+            transform: scale(1.05);
         }
 
         #noButton {
@@ -77,12 +79,22 @@
             display: none;
             font-size: 2em;
             margin-top: 20px;
-            text-shadow: 0 0 15px #5D9CEC, 3px 3px 6px #000;
+            text-shadow: 0 0 20px #87CEEB, 0 0 40px #87CEEB, 3px 3px 6px #000;
+            animation: pulse 1.5s infinite;
         }
 
         #extraText {
             display: none;
             margin-top: 20px;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                text-shadow: 0 0 20px #87CEEB, 0 0 40px #87CEEB, 3px 3px 6px #000;
+            }
+            50% {
+                text-shadow: 0 0 30px #B0E0E6, 0 0 60px #B0E0E6, 3px 3px 6px #000;
+            }
         }
 
         @media (orientation: portrait) {
@@ -130,7 +142,7 @@ La verdad no sé cómo empezar esto porque me cuesta mucho expresarme pero la ve
     <div id="loveMessage">TE AMOOOOOOO</div>
     <div id="extraText">
         <p>Gracias por decir que sí. En serio, gracias por confiar en mí, por aceptarme ser tu pareja, aunque apenas comienza, ya significa muchísimo para mi.</p>
-        <p>Te prometería mil cosas aunque solo sean palabras y próximamente te lo demuestro con hechos, pero sí te prometo algo real:Por mas que tenga mala fama, como ya te enteraste, mala fama de que segun soy infiel, mentiroso y demas, no le hagas caso a nada de eso, todo fake. Prometo serte 100% fiel, nunca mentirte, serte siempre leal, decirte siempre la verdad ante cualquier cosa. Prometo ser la mejor version de mi contigo. Prometo darte lo mejor de mí, incluso en los días que me sienta para la mierda.</p>
+        <p>Te prometería mil cosas aunque solo sean palabras y próximamente te lo demuestro con hechos, pero si voy a prometerte algo. Prometo serte 100% fiel, nunca mentirte, serte siempre leal, decirte siempre la verdad ante cualquier cosa. Prometo ser la mejor version de mi contigo. Prometo darte lo mejor de mí, incluso en los días que me sienta mal.</p>
         <p>Te aviso que no te quiero para pasar el rato, ni por llenar un vacio, te quiero para darte todo lo que te mereces, el amor que te mereces, demostrarte como de verdad tienes que ser tratada. Algo que sea real, que se fortalezca cada vez mas con el tiempo.</p>
         <p>Me importas muchisiiiimoo mas de lo que imaginás, por ti estoy dispuesto a dar mucho, basicamente todo. No porque lo sienta como una obligación, sino porque yo quiero hacerlo. Porque cuando alguien te hace sentir bien con solo estar, lo mínimo que uno puede querer es hacer lo mismo por ella.</p>
         <p>Quiero estar siempre para vos, quiero ayudarte cuando te sientas mal, no causarte mas problemas de los que ya tienes. Algo que lo tengo muyyyy clarisimo es que vale la pena intentarlo contigo. Gracias por darme esta oportunidad. No la pienso desaprovechar.</p>
